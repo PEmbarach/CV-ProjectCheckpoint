@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "info about about"
+        "footer footer"
+    ;
+    background-color: #3E7D99;
+}
+
+header {
+    grid-area: header;
+    box-sizing: border-box;
+    background-color: #3E7D99;
+}
+.info {
+    grid-area: info;
+    box-sizing: border-box;
+    background-color: #3E7D99;
+}
+.about {
+    box-sizing: border-box;
+    grid-area: about;
+}
+footer {
+    box-sizing: border-box;
+    grid-area: footer;
+}
+
+img {
+    width: 150px;
+}
